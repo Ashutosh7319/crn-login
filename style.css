@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Trebuchet MS';
+}
+
+b
+{
+    color: blue;
+}
+
+i
+{
+    color: red;
+}
+
+.head
+{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.login
+{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    height: 70vh;
+    margin-top: 20px;
+}
+
+.logo
+{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo>img
+{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 100%;
+}
+
+#main
+{
+    /* border: 2px solid blue; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+    /* justify-content: center;
+    align-items: center; */
+    height: 70vh;
+    width: 60vh;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(70, 70, 70, 0.15);
+}
+
+#box
+{
+    /* border: 2px solid red; */
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+#box > input
+{
+    padding: 12px;
+    margin-top: 12px;
+    font-family: 'Trebuchet MS';
+    outline: none;
+}
+
+.btn
+{
+    margin-top: 30px;
+    font-family: 'Trebuchet MS';
+    padding: 10px 90px;
+    background-color: rgb(253, 196, 92);
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background-color: orange;
+    color: white;
+}
+
+#box2
+{
+    /* border:2px solid green; */
+    padding: 10px;
+    margin-top: 30px;
+}
+#box2>a
+{
+    margin-left: 30px;
+    color: red;
+}
+
+.passsee
+{
+    width: 7vh;
+    padding: 5px;
+    background: rgb(248, 110, 110);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.passsee>i
+{
+    color: white;
+}
