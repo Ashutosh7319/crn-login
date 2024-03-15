@@ -129,3 +129,11 @@ i
 {
     color: white;
 }
+
+#succ
+{
+    background-color: rgb(45, 253, 45);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    display: none;
+}
