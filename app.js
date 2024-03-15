@@ -12,3 +12,11 @@ eye.addEventListener('click', ()=>
     }
     
 })
+
+let butn = document.getElementById('buttn');
+
+butn.addEventListener('click', ()=>
+{
+    document.getElementById('succ').style.display = 'flex';
+}
+)
